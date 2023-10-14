@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* border: 1px dashed red; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 3px 0 3px 0;
+    
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid white;
+    padding-left: 10px
+
+}
+
+.logo{
+    background-color: white;
+    margin: 3px 0 3px 3px;
+    padding: 0 3px 0 3px;
+    letter-spacing: 3px;
+}
+
+.topHeading, .topContainer, .bottomContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topHeading {
+    margin: 10px 0 5px 0;
+}
+.bottomHeading {
+    margin: 5px 0 5px 0;
+    border-left: 3px solid red;
+    padding-left: 5px;
+}
+
+
+.topContainer section {
+    width: 50%;
+}
+
+.bottomContainer section {
+    margin: 5px;
+}
+
+.topRight {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxSetTop {
+    margin: 0 3px 3px 5px;
+}
+
+.boxSetBottom {
+    margin: 0 3px 0 5px;
+}
+
+.topRight section {
+    width: 48%;
+    height: 10vh;
+}
+
+.backgroundColor {
+    background: linear-gradient(lightgray, darkgray)
+}
+
+
+.topLeft, .boxSetTop, .boxSetBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
